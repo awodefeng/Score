@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">XunScore</string>
+    <string name="task_completed_detail">完成%1$s/%2$s</string>
+    <string name="task_completed">完成</string>
+    <string name="task_uncompleted">未完成</string>
+    <string name="my_score">我的积分</string>
+</resources>

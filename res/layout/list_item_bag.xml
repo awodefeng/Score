@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="240px">
+
+
+        <TextView
+            android:id="@+id/myscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart = "5dp"
+            android:layout_marginTop = "20dp"
+            android:text = "@string/my_score"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/bag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bag"/>
+
+        <ImageView
+            android:id="@+id/use_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop = "25dp"
+            android:layout_marginRight = "5dp"
+            android:src="@drawable/use_state" />
+
+        <TextView
+            android:id="@+id/bag_page_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf = "@id/use_state"
+            android:layout_marginTop = "2dp"
+            android:textSize="50dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
